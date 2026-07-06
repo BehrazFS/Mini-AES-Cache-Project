@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "tb_MiniAES_EncDec_behav" "xil_defaultlib.tb_MiniAES_EncDec" -log "elaborate.log" 

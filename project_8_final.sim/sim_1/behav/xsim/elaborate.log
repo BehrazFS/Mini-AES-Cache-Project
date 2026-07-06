@@ -1,0 +1,26 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /mnt/data/mnt_data/Vivado_2025_1/tools/Xilinx/2025.1/Vivado/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot tb_MiniAES_EncDec_behav xil_defaultlib.tb_MiniAES_EncDec -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.gf_math_generic
+Compiling architecture rtl of entity xil_defaultlib.SubBytes [subbytes_default]
+Compiling architecture rtl of entity xil_defaultlib.ShiftRows [shiftrows_default]
+Compiling architecture rtl of entity xil_defaultlib.MixColumns [mixcolumns_default]
+Compiling architecture rtl of entity xil_defaultlib.AddRoundKey [addroundkey_default]
+Compiling architecture comb of entity xil_defaultlib.MiniAES_Enc [miniaes_enc_default]
+Compiling architecture rtl of entity xil_defaultlib.InvMixColumns [invmixcolumns_default]
+Compiling architecture rtl of entity xil_defaultlib.ShiftRows [\ShiftRows(shift=3)\]
+Compiling architecture rtl of entity xil_defaultlib.InvSubBytes [invsubbytes_default]
+Compiling architecture rtl of entity xil_defaultlib.MiniAES_Dec [miniaes_dec_default]
+Compiling architecture sim of entity xil_defaultlib.tb_miniaes_encdec
+Built simulation snapshot tb_MiniAES_EncDec_behav

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cache_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="gf_math_generic" />
+            <top_module name="tb_cache" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="126.001 ns"></ZoomEndTime>
+      <Cursor1Time time="117.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="241"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject type="logic" fp_name="/tb_cache/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/MemRead">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/MemWrite">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/Address">
+      <obj_property name="ElementShortName">Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/DataIn">
+      <obj_property name="ElementShortName">DataIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/DataOut">
+      <obj_property name="ElementShortName">DataOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/Hit">
+      <obj_property name="ElementShortName">Hit</obj_property>
+      <obj_property name="ObjectShortName">Hit</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/Number_of_Blocks">
+      <obj_property name="ElementShortName">Number_of_Blocks</obj_property>
+      <obj_property name="ObjectShortName">Number_of_Blocks</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/AddrWidth">
+      <obj_property name="ElementShortName">AddrWidth</obj_property>
+      <obj_property name="ObjectShortName">AddrWidth</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/DataWidth">
+      <obj_property name="ElementShortName">DataWidth</obj_property>
+      <obj_property name="ObjectShortName">DataWidth</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/CLK_PERIOD">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/dut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/dut/MemRead">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/dut/MemWrite">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/Address">
+      <obj_property name="ElementShortName">Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/DataIn">
+      <obj_property name="ElementShortName">DataIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/DataOut">
+      <obj_property name="ElementShortName">DataOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_cache/dut/Hit">
+      <obj_property name="ElementShortName">Hit</obj_property>
+      <obj_property name="ObjectShortName">Hit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/mem">
+      <obj_property name="ElementShortName">mem[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[15]">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[14]">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_cache/dut/mem[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/tag">
+      <obj_property name="ElementShortName">tag[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/block_i">
+      <obj_property name="ElementShortName">block_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">block_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/encrypted_data">
+      <obj_property name="ElementShortName">encrypted_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">encrypted_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/decrypted_data">
+      <obj_property name="ElementShortName">decrypted_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">decrypted_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/Number_of_Blocks">
+      <obj_property name="ElementShortName">Number_of_Blocks</obj_property>
+      <obj_property name="ObjectShortName">Number_of_Blocks</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/AddrWidth">
+      <obj_property name="ElementShortName">AddrWidth</obj_property>
+      <obj_property name="ObjectShortName">AddrWidth</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/DataWidth">
+      <obj_property name="ElementShortName">DataWidth</obj_property>
+      <obj_property name="ObjectShortName">DataWidth</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/NIBBLE_WIDTH">
+      <obj_property name="ElementShortName">NIBBLE_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">NIBBLE_WIDTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/ROUNDS">
+      <obj_property name="ElementShortName">ROUNDS</obj_property>
+      <obj_property name="ObjectShortName">ROUNDS</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_cache/dut/SHIFT">
+      <obj_property name="ElementShortName">SHIFT</obj_property>
+      <obj_property name="ObjectShortName">SHIFT</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/ENCRYPTION_KEY">
+      <obj_property name="ElementShortName">ENCRYPTION_KEY[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ENCRYPTION_KEY[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_cache/dut/DEFAULT_Block">
+      <obj_property name="ElementShortName">DEFAULT_Block</obj_property>
+      <obj_property name="ObjectShortName">DEFAULT_Block</obj_property>
+   </wvobject>
+</wave_config>

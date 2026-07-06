@@ -1,0 +1,7 @@
+Running: xsim.dir/MiniAES_Dec_behav/xsimk -simmode gui -wdb MiniAES_Dec_behav.wdb -simrunnum 0 -socket 47939
+Design successfully loaded
+Design Loading Memory Usage: 176568 KB (Peak: 176620 KB)
+Design Loading CPU Usage: 610 ms
+Simulation completed
+Simulation Memory Usage: 266504 KB (Peak: 315836 KB)
+Simulation CPU Usage: 620 ms

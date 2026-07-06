@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/data/mnt_data/FPGA_Projects/Vivado/project_8_final/project_8_final.srcs/sim_1/new/MiniAES_Enc_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_MiniAES_EncDec'

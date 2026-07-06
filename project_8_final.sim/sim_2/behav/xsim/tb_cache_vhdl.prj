@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_8_final.srcs/sources_1/new/AddRoundKey.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/gf_math.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/InvMixColumns.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/InvSubBytes.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/ShiftRows.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/MiniAES_Dec.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/SubBytes.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/MixColumns.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/MiniAES_Enc.vhd" \
+"../../../../project_8_final.srcs/sources_1/new/cache.vhd" \
+"../../../../project_8_final.srcs/sim_2/new/cache_TB.vhd" \
+
+# Do not sort compile order
+nosort

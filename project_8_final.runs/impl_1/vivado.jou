@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Dec 24 02:42:22 2025
+# Process ID         : 68428
+# Current directory  : /mnt/data/mnt_data/FPGA_Projects/Vivado/project_8_final/project_8_final.runs/impl_1
+# Command line       : vivado -log cache.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cache.tcl -notrace
+# Log file           : /mnt/data/mnt_data/FPGA_Projects/Vivado/project_8_final/project_8_final.runs/impl_1/cache.vdi
+# Journal file       : /mnt/data/mnt_data/FPGA_Projects/Vivado/project_8_final/project_8_final.runs/impl_1/vivado.jou
+# Running On         : archlinux
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i9-14900HX
+# CPU Frequency      : 1719.297 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 33244 MB
+# Swap memory        : 36294 MB
+# Total Virtual      : 69538 MB
+# Available Virtual  : 65066 MB
+#-----------------------------------------------------------
+source cache.tcl -notrace
